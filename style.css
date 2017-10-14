@@ -1,0 +1,98 @@
+/* add font family for the page*/
+@font-face {
+    font-family: myfont;
+    src: url(font/Intro.otf);
+}
+@font-face {
+    font-family: font-icon;
+    src: url(font/FontAwesome.otf);
+    src: url(font/fontawesome-webfont.eot);
+}
+
+body, html {
+    height: 100%;
+}
+.content-page {
+    text-align: center;
+    height: 100vh;
+}
+
+.content-page img {
+    width: 100%;
+    height:100vh;
+}
+.text-content {
+    width: 45%;
+    float: left;
+    position: fixed;
+    top: 35%;
+    left: 50px;
+}
+.form-dangky {
+    position: fixed;
+    left: 15%;
+}
+
+.text-content h1{
+    color: #f7f7f7;
+    font-weight: 700;
+    font-family: myfont;
+}
+
+.text-content p {
+    font-family: myfont;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+i {
+    font-family: font-icon;
+}
+
+/*trang quan tri */
+.top-header {
+    background-color: #686868;
+    color: #fff;
+    height:40px;
+}
+.top-header p {
+    line-height: 40px;
+}
+.top-header a {
+    color: #fff;
+    text-decoration: none;
+}
+.top-header a:hover{
+    text-decoration: none;
+}
+.meta-dangnhap {
+    float: right;
+}
+
+.content-quiantri {
+    margin-top: 50px;
+    position: relative;
+}
+
+.content-quiantri .form-control {
+    margin: 20px;
+}
+
+.content-quiantri label {
+    width: 100px;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.content-quiantri input {
+    border: 1px solid #686868;
+    border-bottom-left-radius: 20px;
+}
+.content-quiantri textarea {
+    margin-left: 20px;
+}
+
+.content-quiantri button {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+}
